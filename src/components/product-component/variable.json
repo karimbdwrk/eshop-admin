@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_component_variables",
+  "info": {
+    "displayName": "variable",
+    "icon": "dumpster"
+  },
+  "options": {},
+  "attributes": {
+    "variation": {
+      "displayName": "variation",
+      "type": "component",
+      "repeatable": true,
+      "component": "product-component.variation"
+    }
+  }
+}

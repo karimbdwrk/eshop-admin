@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_product_component_simples",
+  "info": {
+    "displayName": "simple",
+    "icon": "gamepad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "stock": {
+      "type": "integer"
+    }
+  }
+}

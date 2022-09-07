@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_component_variations",
+  "info": {
+    "displayName": "variation",
+    "icon": "flag-checkered",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "stock": {
+      "type": "integer"
+    }
+  }
+}
