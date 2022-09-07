@@ -3,6 +3,18 @@
 module.exports = function (_ref) {
   var env = _ref.env;
   return {
+    graphql: {
+      config: {
+        endpoint: '/graphql',
+        shadowCRUD: true,
+        playgroundAlways: false,
+        depthLimit: 7,
+        amountLimit: 100,
+        apolloServer: {
+          tracing: false
+        }
+      }
+    },
     upload: {
       config: {
         provider: 'aws-s3',
