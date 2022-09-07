@@ -47,8 +47,8 @@
     "type": {
       "type": "dynamiczone",
       "components": [
-        "product-component.simple",
-        "product-component.variable"
+        "product.variable",
+        "product.simple"
       ],
       "min": 1,
       "max": 1,

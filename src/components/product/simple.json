@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_product_component_simples",
+  "collectionName": "components_product_simples",
   "info": {
     "displayName": "simple",
-    "icon": "gamepad",
-    "description": ""
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
