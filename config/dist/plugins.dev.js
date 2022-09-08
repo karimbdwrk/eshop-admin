@@ -3,6 +3,21 @@
 module.exports = function (_ref) {
   var env = _ref.env;
   return {
+    slugify: {
+      enabled: true,
+      config: {
+        contentTypes: {
+          category: {
+            field: 'slug',
+            references: 'title'
+          },
+          product: {
+            field: 'slug',
+            references: 'title'
+          }
+        }
+      }
+    },
     graphql: {
       config: {
         endpoint: '/graphql',
