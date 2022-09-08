@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_element_links",
+  "info": {
+    "displayName": "link",
+    "icon": "cannabis"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "isBtn": {
+      "type": "boolean"
+    }
+  }
+}
